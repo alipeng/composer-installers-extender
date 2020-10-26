@@ -1,5 +1,5 @@
 {
-	"name": "oomphinc/composer-installers-extender",
+	"name": "alipeng/composer-installers-extender",
 	"description": "Extend the composer/installers plugin to accept any arbitrary package type.",
 	"homepage": "http://www.oomphinc.com/",
 	"type": "composer-plugin",
@@ -21,7 +21,7 @@
 		"class": "OomphInc\\ComposerInstallersExtender\\Plugin"
 	},
 	"require": {
-		"composer-plugin-api": "^1.0",
+		"composer-plugin-api": "^1.0 || ^2.0",
 		"composer/installers": "^1.0"
 	}
 }
